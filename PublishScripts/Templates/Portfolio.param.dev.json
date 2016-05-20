@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "TheAaronCovington"
+  },
+  "hostingPlanName": {
+    "value": "ServicePlan5fc88e34-9653"
+  },
+  "siteLocation": {
+    "value": "South Central US"
+  },
+  "sku": {
+    "value": "Standard"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "5cf4e550-a247-4700-897e-5fe590a543af"
+  },
+  "resourceGroup": {
+    "value": "Goose"
+  }
+}
