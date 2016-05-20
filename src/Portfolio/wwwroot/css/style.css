@@ -1,0 +1,252 @@
+﻿/* NAVBAR STYLES */
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+
+    font-size: 1.5em;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #2ecc71;
+}
+.navbar-inverse .navbar-nav>li>a:focus{
+    color: #ff1a1a;
+}
+
+#logo{
+    border-radius: 20%;
+    height: 20%;
+    width: 20%;
+}
+#aaron_name{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+/* Styles for animated underlining */
+.sliding-middle-out{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width 1s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+    width: 100%;
+    background: #ff1a1a;
+}
+/*Section Styles*/
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+}
+/*Intro Section Styles*/
+.intro {
+    min-height: 100%;
+    max-height: 200%;
+    height: auto !important;
+    
+    padding-top: 150px;
+    text-align: center;
+    /*background: #ecf0f1;*/
+    background-color: #222222;
+}
+header{
+    font-family: Righteous;
+    color: white;
+}
+#intro-panel{
+    background-color: #222222;
+
+}
+
+
+/*About Seciton Styles*/
+.about-section {
+    min-height: 100%;
+    max-height: 200%;
+    height: auto !important;
+    padding-top: 150px;
+    text-align: center;
+    background-color: #222222;
+}
+#about_panel{
+    background-color: #F3F3F3;
+    width: 32%;
+    min-width: 200px;
+    padding-bottom: 10%;
+    font-family: 'Hind', sans-serif;
+    font-size: 1.2em;
+    margin: 0 auto 0 35%;
+    -webkit-border-radius: 6%;
+}
+#aaron_img{
+    height: 20%;
+    width: 20%;
+    border-radius: 100%;
+}
+#aaron_img:hover{
+
+}
+
+
+
+/*Portfolio Styles*/
+.portfolio-section {
+    min-height: 100%;
+    max-height: 300%;
+    height: auto !important;
+    padding-top: 150px;
+    text-align: center;
+    background-color: #222222;
+}
+.portfolio-project{
+    border-radius: 5%;
+    background-color: #2F2F31;
+    border: 5px solid transparent;
+    width: 60%;
+}
+.portfolio-project:hover{
+    border: 5px solid #4d94ff;
+}
+.portfolio-project a img{
+    width: 100%;
+}
+.portfolio-project a span{
+    width: 50%;
+}
+.row{
+    margin-left: 7%;
+}
+span.text-content{
+    color: white !important;
+    cursor: pointer;
+    display: table;
+    position: absolute;
+    margin: -33% 20% 0 0%;
+    max-width: 100%;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.img-hover:hover span.text-content{
+    opacity: 1 !important;
+}
+.proj-desc{
+    color: white !important;
+}
+
+
+/*Contact Styles*/
+.contact-section {
+    min-height: 100%;
+    max-height: 200%;
+    height: auto !important;
+    
+    padding-top: 150px;
+    text-align: center;
+    background-color: #222222;
+}
+#contact-panel{
+    background: #80c1ff;
+    
+    min-width: 250px;
+    width: 40%;
+    margin-left: 30%;
+    -webkit-border-radius: 6%;
+    font-family: 'Roboto', sans-serif;
+    font-decoration: bold;
+    margin: 0 auto;
+}
+#contact-panel:hover{
+    opacity: 1;
+}
+.btn-contact{
+    margin: 10% 0 10% 0;
+}
+.form-control{
+    margin-top: 10%;
+    -webkit-border-radius: 10px;
+}
+
+
+
+/* Social Media Styles */
+#social-pics{
+    padding-right: 0;
+}
+.facebook{
+    padding-top: 10%;
+    transition: 0.8s ease;
+}
+.facebook:hover{
+    opacity: 0.7;
+    padding-top: 0;
+    transition: 0.8s ease;
+}
+.twitter{
+    padding-top: 10%;
+    transition: 0.8s ease;
+}
+.twitter:hover{
+    opacity: 0.7;
+    padding-top: 0;
+    transition: 0.8s ease;
+}
+.linkedin{
+    padding-top: 10%;
+    transition: 0.8s ease;
+}
+.linkedin:hover{
+    opacity: 0.7;
+    padding-top: 0;
+    transition: 0.8s ease;
+}
+.github{
+    padding-top: 10%;
+    transition: 0.8s ease;
+}
+.github:hover{
+    opacity: 0.7;
+    padding-top: 0;
+    transition: 0.8s ease;
+}
+.gmail{
+    padding-top: 10%;
+    transition: 0.8s ease;
+}
+.gmail:hover{
+    opacity: 0.7;
+    padding-top: 0;
+    transition: 0.8s ease;
+}
